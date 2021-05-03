@@ -1,0 +1,59 @@
+.services {
+    background: #1f2235;
+    color: #fff;
+  }
+  .common {
+    width: 33.33333333333333%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .heading {
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #ff4a57;
+    font-size: 16px;
+  }
+  .mainHeader {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .mainContent {
+    font-size: 16px;
+    color: #dfdfdf;
+  }
+  .commonBorder {
+    background: #ff4a57;
+    height: 3px;
+    width: 100px;
+    margin: 30px auto;
+  }
+  .icons {
+    font-size: 40px;
+    color: #C82333;
+    transition: .5s;
+    margin-bottom: 15px;
+  }
+  .bgMain {
+    background: #1f2235;
+  }
+  .services-box {
+    background: #23263a;
+    color: #fff;
+    transition: all 0.5s linear;
+  }
+  .services-box:hover {
+    background: #C82333;
+  }
+  .services-box:hover .icons {
+    color: #fff;
+  }
+  .services-box-header {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .services-box-text {
+    font-size: 14px;
+    color: #fff;
+  }

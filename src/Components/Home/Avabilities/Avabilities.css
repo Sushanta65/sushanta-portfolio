@@ -1,0 +1,13 @@
+.avabilties{
+    background: url('../../../Images/hireMe.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.hire-btn{
+    border: 1px solid #dc3545;
+    padding: 8px 40px;
+    border-radius: 50px;
+    text-align: center;
+    transition: .5s;
+    text-decoration: none;
+}
