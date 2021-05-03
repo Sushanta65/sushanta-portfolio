@@ -1,0 +1,61 @@
+.header-wraper{
+    background: #000;
+}
+button.portfolio-btn {
+    border: 1px solid #dc3545;
+    padding: 8px 40px;
+    border-radius: 50px;
+    text-align: center;
+    background: #dc3545;
+    color: white;
+    transition: .5s;
+}
+button.cv-btn{
+    border: 1px solid #dc3545;
+    padding: 8px 40px;
+    border-radius: 50px;
+    text-align: center;
+    transition: .5s;
+}
+button.cv-btn.ml-2 a {
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+button.portfolio-btn:hover{
+    background: #F8F9FA;
+    color:black;
+}
+button.cv-btn:hover{
+    background: #dc3545;
+    color: white;
+}
+button.cv-btn:hover > a{
+    color: white;
+}
+h1.display-5.d-block.header-text {
+    line-height: 60px;
+}
+.intro p{
+    padding: 12px 0;
+}
+@media screen and (max-width: 568px){
+    .img{
+        display: none;
+    }
+    button.cv-btn{
+        margin-top: 10px;
+        margin-left: 0px !important;
+        padding: 4px 20px;
+    }
+    .header-text{
+        font-size:30px !important;
+        
+    }
+    button.portfolio-btn{
+        padding: 4px 20px;
+    }
+    .intro p{
+        font-size: 11px !important;
+    }
+}

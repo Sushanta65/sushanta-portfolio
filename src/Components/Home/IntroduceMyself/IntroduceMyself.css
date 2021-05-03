@@ -1,0 +1,12 @@
+.someInfo h6{
+    color: #dc3545;
+}
+.siteImage{
+    border: 1px solid #dc3545;
+    box-shadow: inset 0px 0px 5px 2px #6f6f6f;
+}
+
+.hi-there p{
+    font-size: 14px;
+}
+

@@ -1,0 +1,50 @@
+
+.header-title{
+    width:100%;
+    background:#000;
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+}
+.pricePrice{
+    width:100%;
+    background: #000;
+    font-size: 35px;
+    border-bottom: 4px solid #dc3545;
+}
+.priceDeal{
+    font-size:60px;
+    font-weight: 700;
+}
+.dollarSign{
+    font-size:30px;
+}
+.freeLifeTime{
+    font-size: 12px;
+    padding: 5px 0px 5px 0px;
+    color: #b9b9b9;
+}
+li.list-group-item.border-left-0.border-right-0 {
+    font-size: 11px;
+    padding: 8px !important;
+    background:#f5f5f5;
+    color: #555;
+}
+.forPt{
+    padding-top: 60px;
+}
+.forpb{
+    padding-bottom: 65px;
+}
+.forRemoveBorder{
+    border-bottom: 0;
+}
+.mostPopuler.text-light.text-center {
+    font-size: 11px;
+    background: #dc3545;
+    padding: 6px 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.forGrowTop{
+    margin-top: -25px;
+}
