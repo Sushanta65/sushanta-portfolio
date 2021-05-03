@@ -16,7 +16,9 @@ const Projects = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="project-photo">
-                            
+                            <div className="card">
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
