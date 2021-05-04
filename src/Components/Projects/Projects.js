@@ -28,8 +28,8 @@ const Projects = () => {
                                     <li className="list-group-item">React Project</li>
                                 </ul>
                                 <div className="card-body">
-                                    <a target="_blank" href="https://sd-softwares.web.app/" className="card-link">Visit Site</a>
-                                    <a target="_blank" href="https://github.com/Porgramming-Hero-web-course/complete-website-client-Sushanta65" className="card-link">Code</a>
+                                    <a target="_blank" rel="noreferrer" href="https://sd-softwares.web.app/" className="card-link">Visit Site</a>
+                                    <a target="_blank" rel="noreferrer" href="https://github.com/Porgramming-Hero-web-course/complete-website-client-Sushanta65" className="card-link">Code</a>
                                 </div>
                             </div>
                         </div>
@@ -44,8 +44,8 @@ const Projects = () => {
                                     <li className="list-group-item">React Project</li>
                                 </ul>
                                 <div className="card-body">
-                                    <a target="_blank" href="https://60674cf5d9037b0008286c5a--flamboyant-feynman-a21504.netlify.app" className="card-link">Visit Site</a>
-                                    <a target="_blank" href="https://github.com/Porgramming-Hero-web-course/full-stack-client-Sushanta65" className="card-link">Code</a>
+                                    <a target="_blank" rel="noreferrer" href="https://60674cf5d9037b0008286c5a--flamboyant-feynman-a21504.netlify.app" className="card-link">Visit Site</a>
+                                    <a target="_blank" rel="noreferrer" href="https://github.com/Porgramming-Hero-web-course/full-stack-client-Sushanta65" className="card-link">Code</a>
                                 </div>
                             </div>
                         </div>
@@ -60,8 +60,8 @@ const Projects = () => {
                                     <li className="list-group-item">Bootstrap Web Design</li>
                                 </ul>
                                 <div className="card-body">
-                                    <a target="_blank" href="https://sushanta65.github.io/axit/" className="card-link">Visit Site</a>
-                                    <a target="_blank" href="https://github.com/Sushanta65/axit" className="card-link">Code</a>
+                                    <a target="_blank" rel="noreferrer" href="https://sushanta65.github.io/axit/" className="card-link">Visit Site</a>
+                                    <a target="_blank" rel="noreferrer" href="https://github.com/Sushanta65/axit" className="card-link">Code</a>
                                 </div>
                             </div>
                         </div>
