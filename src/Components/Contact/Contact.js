@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import Navbar from '../Shared/Navbar/Navbar';
 import './Contact.css'
 import emailjs from 'emailjs-com'
+import spinnerGif from '../../Images/spinner.gif'
 
 const Contact = () => {
     const [status, setStatus] = useState('')
+    const [spinner, setSpinner] = useState('')
+
     const sendEmail = (e) => {
        
         e.preventDefault();
@@ -15,7 +18,11 @@ const Contact = () => {
               setStatus(sendStatus)
           }, (error) => {
               console.log(error.text);
+              setStatus('Somthing went wrong!')
           });
+          if(status === ''){
+              setSpinner(spinnerGif)
+          }
           e.target.reset()
     }
     return (
@@ -30,6 +37,7 @@ const Contact = () => {
                                 <hr />
                                 <p>You can contact me via email. Contact me anytime.</p>
                                 <h5 style={{color: 'green'}}>{status}</h5>
+                                <img src={!status && spinner} alt=""/>
                             </div>
                             
                         </div>
